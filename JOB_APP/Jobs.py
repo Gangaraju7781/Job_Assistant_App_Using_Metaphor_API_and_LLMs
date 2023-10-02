@@ -12,7 +12,7 @@ metaphor = Metaphor(st.sidebar.text_input("METAPHOR-KEY",type="password"))
 st.title("Job Search Assistant")
 
 # User input for the question
-USER_QUESTION = st.text_input("Enter your question:")
+USER_QUESTION = st.text_input("Enter the job title:")
 
 st.markdown("Sample Search: 'Job Title' Listings (e.g., New Data Scientist Positions / Data Scientist Jobs)")
 
