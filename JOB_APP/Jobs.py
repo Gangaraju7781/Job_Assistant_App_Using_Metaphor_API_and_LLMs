@@ -3,7 +3,7 @@ import openai
 from metaphor_python import Metaphor
 
 # Set OpenAI API key
-openai.api_key = st.sidebar.text_input("API-KEY",type="password")
+openai.api_key = st.sidebar.text_input("OPENAI_API-KEY",type="password")
 
 # Set Metaphor API key
 metaphor = Metaphor(st.sidebar.text_input("METAPHOR-KEY",type="password"))
